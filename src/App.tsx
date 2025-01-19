@@ -115,16 +115,6 @@ function App() {
                 With advanced technology, fast transactions, and low fees,
                 MuskTrumpCoin is ready to transform fintech, DeFi, and beyond.
               </p>
-              <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
-                <button className="bg-mtc-gold text-mtc-navy px-8 py-3 rounded-full font-bold hover:bg-yellow-300 transition-colors flex items-center justify-center gap-2">
-                  <Rocket className="w-5 h-5" />
-                  Join the Revolution
-                </button>
-                <button className="border-2 border-mtc-gold text-mtc-gold px-8 py-3 rounded-full font-bold hover:bg-mtc-gold hover:text-mtc-navy transition-colors flex items-center justify-center gap-2">
-                  <ExternalLink className="w-5 h-5" />
-                  Learn More
-                </button>
-              </div>
             </div>
             <div className="relative">
               <Swiper
