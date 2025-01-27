@@ -6,6 +6,8 @@ import {
   Rocket,
   Binary,
   Blocks,
+  Cpu,
+  Vote,
   Zap,
   Lock,
   TrendingUp,
