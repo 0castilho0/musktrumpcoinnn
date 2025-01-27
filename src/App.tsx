@@ -327,12 +327,6 @@ function App() {
                   </span>
                 </div>
               </div>
-              <div className="bg-mtc-navy/30 p-6 rounded-xl">
-                <h4 className="text-xl font-bold mb-4">Price Chart (7 Days)</h4>
-                <div className="aspect-[16/9] bg-mtc-navy/50 rounded-lg flex items-center justify-center">
-                  <p className="text-gray-400">Chart data loading...</p>
-                </div>
-              </div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
