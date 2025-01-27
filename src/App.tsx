@@ -489,24 +489,6 @@ function App() {
               >
                 X (Twitter)
               </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-mtc-gold transition-colors"
-              >
-                Telegram
-              </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-mtc-gold transition-colors"
-              >
-                Discord
-              </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-mtc-gold transition-colors"
-              >
-                GitHub
-              </a>
             </div>
           </div>
           <div className="text-center mt-8 text-gray-500">
