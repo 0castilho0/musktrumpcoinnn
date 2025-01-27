@@ -241,91 +241,151 @@ function App() {
         </div>
       </section>
 
-      {/* Technology Breakdown */}
-      <section className="py-20 bg-gradient-to-b from-mtc-navy to-mtc-dark">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-4">
-            Revolutionary Technology
-          </h2>
-          <p className="text-center text-mtc-gold mb-12 text-xl">
-            Built for the Future of Finance
-          </p>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <div className="bg-mtc-darker p-8 rounded-xl border border-mtc-gold/10">
-              <Cpu className="w-16 h-16 text-mtc-gold mb-6" />
-              <h3 className="text-2xl font-bold mb-4">Robust Infrastructure</h3>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <ChevronRight className="w-5 h-5 text-mtc-gold flex-shrink-0 mt-1" />
-                  <span className="text-gray-300">
-                    Scalable architecture for growing demands
-                  </span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <ChevronRight className="w-5 h-5 text-mtc-gold flex-shrink-0 mt-1" />
-                  <span className="text-gray-300">
-                    High-performance transaction processing
-                  </span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <ChevronRight className="w-5 h-5 text-mtc-gold flex-shrink-0 mt-1" />
-                  <span className="text-gray-300">
-                    Advanced security protocols
-                  </span>
-                </li>
-              </ul>
-            </div>
-            <div className="bg-mtc-darker p-8 rounded-xl border border-mtc-gold/10">
-              <Blocks className="w-16 h-16 text-mtc-gold mb-6" />
-              <h3 className="text-2xl font-bold mb-4">Ecosystem Integration</h3>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <ChevronRight className="w-5 h-5 text-mtc-gold flex-shrink-0 mt-1" />
-                  <span className="text-gray-300">
-                    Seamless DeFi platform compatibility
-                  </span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <ChevronRight className="w-5 h-5 text-mtc-gold flex-shrink-0 mt-1" />
-                  <span className="text-gray-300">
-                    Cross-chain bridge functionality
-                  </span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <ChevronRight className="w-5 h-5 text-mtc-gold flex-shrink-0 mt-1" />
-                  <span className="text-gray-300">
-                    Smart contract interoperability
-                  </span>
-                </li>
-              </ul>
-            </div>
-            <div className="bg-mtc-darker p-8 rounded-xl border border-mtc-gold/10">
-              <Lightbulb className="w-16 h-16 text-mtc-gold mb-6" />
-              <h3 className="text-2xl font-bold mb-4">Future Innovation</h3>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <ChevronRight className="w-5 h-5 text-mtc-gold flex-shrink-0 mt-1" />
-                  <span className="text-gray-300">
-                    AI-powered trading features
-                  </span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <ChevronRight className="w-5 h-5 text-mtc-gold flex-shrink-0 mt-1" />
-                  <span className="text-gray-300">
-                    Quantum-resistant encryption
-                  </span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <ChevronRight className="w-5 h-5 text-mtc-gold flex-shrink-0 mt-1" />
-                  <span className="text-gray-300">
-                    Revolutionary governance model
-                  </span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
+{/* Combined Technology Section */}
+<section className="py-20 bg-gradient-to-b from-mtc-navy to-mtc-dark">
+  <div className="container mx-auto px-4">
+    {/* Heading */}
+    <h2 className="text-4xl font-bold text-center mb-4 text-white">
+      Revolutionary Technology & Features
+    </h2>
+    <p className="text-center text-mtc-gold mb-12 text-xl">
+      Built for the Future of Finance
+    </p>
+
+    {/* Grid of Features */}
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {/* Card 1 */}
+      <div className="bg-gray-800/50 p-8 rounded-xl border border-mtc-gold/10">
+        <Shield className="w-16 h-16 text-orange-500 mb-6" />
+        <h3 className="text-2xl font-bold mb-4 text-white">Secure Blockchain</h3>
+        <p className="text-gray-300 mb-4">
+          Built on a next-generation blockchain network, ensuring security and scalability.
+        </p>
+        <ul className="space-y-4">
+          <li className="flex items-start gap-3">
+            <ChevronRight className="w-5 h-5 text-mtc-gold flex-shrink-0 mt-1" />
+            <span className="text-gray-300">
+              Advanced encryption standards
+            </span>
+          </li>
+          <li className="flex items-start gap-3">
+            <ChevronRight className="w-5 h-5 text-mtc-gold flex-shrink-0 mt-1" />
+            <span className="text-gray-300">
+              Fully decentralized framework
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      {/* Card 2 */}
+      <div className="bg-gray-800/50 p-8 rounded-xl border border-mtc-gold/10">
+        <Zap className="w-16 h-16 text-orange-500 mb-6" />
+        <h3 className="text-2xl font-bold mb-4 text-white">Proof of Stake (PoS)</h3>
+        <p className="text-gray-300 mb-4">
+          Energy-efficient system that rewards active network participants.
+        </p>
+        <ul className="space-y-4">
+          <li className="flex items-start gap-3">
+            <ChevronRight className="w-5 h-5 text-mtc-gold flex-shrink-0 mt-1" />
+            <span className="text-gray-300">
+              Low energy consumption
+            </span>
+          </li>
+          <li className="flex items-start gap-3">
+            <ChevronRight className="w-5 h-5 text-mtc-gold flex-shrink-0 mt-1" />
+            <span className="text-gray-300">
+              Rewarding staking mechanisms
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      {/* Card 3 */}
+      <div className="bg-gray-800/50 p-8 rounded-xl border border-mtc-gold/10">
+        <Vote className="w-16 h-16 text-orange-500 mb-6" />
+        <h3 className="text-2xl font-bold mb-4 text-white">Decentralized Governance</h3>
+        <p className="text-gray-300 mb-4">
+          Active community participation in decisions through decentralized voting.
+        </p>
+        <ul className="space-y-4">
+          <li className="flex items-start gap-3">
+            <ChevronRight className="w-5 h-5 text-mtc-gold flex-shrink-0 mt-1" />
+            <span className="text-gray-300">
+              Transparent voting mechanisms
+            </span>
+          </li>
+          <li className="flex items-start gap-3">
+            <ChevronRight className="w-5 h-5 text-mtc-gold flex-shrink-0 mt-1" />
+            <span className="text-gray-300">
+              Community-driven proposals
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      {/* Card 4 */}
+      <div className="bg-mtc-darker p-8 rounded-xl border border-mtc-gold/10">
+        <Cpu className="w-16 h-16 text-mtc-gold mb-6" />
+        <h3 className="text-2xl font-bold mb-4 text-white">Robust Infrastructure</h3>
+        <ul className="space-y-4">
+          <li className="flex items-start gap-3">
+            <ChevronRight className="w-5 h-5 text-mtc-gold flex-shrink-0 mt-1" />
+            <span className="text-gray-300">
+              Scalable architecture for growing demands
+            </span>
+          </li>
+          <li className="flex items-start gap-3">
+            <ChevronRight className="w-5 h-5 text-mtc-gold flex-shrink-0 mt-1" />
+            <span className="text-gray-300">
+              High-performance transaction processing
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      {/* Card 5 */}
+      <div className="bg-mtc-darker p-8 rounded-xl border border-mtc-gold/10">
+        <Blocks className="w-16 h-16 text-mtc-gold mb-6" />
+        <h3 className="text-2xl font-bold mb-4 text-white">Ecosystem Integration</h3>
+        <ul className="space-y-4">
+          <li className="flex items-start gap-3">
+            <ChevronRight className="w-5 h-5 text-mtc-gold flex-shrink-0 mt-1" />
+            <span className="text-gray-300">
+              Seamless DeFi platform compatibility
+            </span>
+          </li>
+          <li className="flex items-start gap-3">
+            <ChevronRight className="w-5 h-5 text-mtc-gold flex-shrink-0 mt-1" />
+            <span className="text-gray-300">
+              Smart contract interoperability
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      {/* Card 6 */}
+      <div className="bg-mtc-darker p-8 rounded-xl border border-mtc-gold/10">
+        <Lightbulb className="w-16 h-16 text-mtc-gold mb-6" />
+        <h3 className="text-2xl font-bold mb-4 text-white">Future Innovation</h3>
+        <ul className="space-y-4">
+          <li className="flex items-start gap-3">
+            <ChevronRight className="w-5 h-5 text-mtc-gold flex-shrink-0 mt-1" />
+            <span className="text-gray-300">
+              AI-powered trading features
+            </span>
+          </li>
+          <li className="flex items-start gap-3">
+            <ChevronRight className="w-5 h-5 text-mtc-gold flex-shrink-0 mt-1" />
+            <span className="text-gray-300">
+              Quantum-resistant encryption
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Polygon Network Integration */}
       <section className="py-20 bg-mtc-dark">
