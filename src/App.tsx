@@ -148,33 +148,6 @@ function App() {
         </div>
       </section>
 
-      {/* Inspiration Section */}
-      <section className="py-20 bg-gray-800/50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-16">Our Inspiration</h2>
-          <div className="grid md:grid-cols-2 gap-12">
-            <div className="bg-gray-800 p-8 rounded-2xl">
-              <img 
-                src="https://images.unsplash.com/photo-1562114808-b4b33cf60f4f?auto=format&fit=crop&w=800&q=80" 
-                alt="Technological Innovation" 
-                className="w-full h-48 object-cover rounded-xl mb-6"
-              />
-              <h3 className="text-2xl font-bold mb-4">Elon Musk</h3>
-              <p className="text-gray-300">A symbol of technological innovation and futuristic vision, inspiring our approach to revolutionize the financial market through blockchain technology.</p>
-            </div>
-            <div className="bg-gray-800 p-8 rounded-2xl">
-              <img 
-                src="https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?auto=format&fit=crop&w=800&q=80" 
-                alt="Political Leadership" 
-                className="w-full h-48 object-cover rounded-xl mb-6"
-              />
-              <h3 className="text-2xl font-bold mb-4">Donald Trump</h3>
-              <p className="text-gray-300">Representative of disruptive leadership and political change, influencing our mission to democratize financial access and promote decentralized governance.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* IDO Section */}
       <section className="py-12 bg-mtc-darker border-y border-mtc-gold/10">
         <div className="container mx-auto px-4">
