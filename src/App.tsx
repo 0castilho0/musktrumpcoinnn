@@ -32,23 +32,23 @@ function App() {
 
   const carouselImages = [
     {
-      url: 'https://imgbb.io/images/FdRh.jpg',
+      url: 'https://imgbb.io/ib/iWLy1fSGBQPZ7Y1_1737990068.jpg',
       caption: '',
     },
     {
-      url: 'https://imgbb.io/images/FdC0.jpg',
+      url: 'https://imgbb.io/ib/cON8S0JWNAau3d5_1737990066.jpg',
       caption: '',
     },
     {
-      url: 'https://imgbb.io/images/Flzx.jpg',
+      url: 'https://imgbb.io/ib/mM37UqCR3ZE9wJL_1737990068.jpg',
       caption: '',
     },
     {
-      url: 'https://imgbb.io/images/FlmN.jpg',
+      url: 'https://imgbb.io/ib/ACtRP5wSIRlgEf5_1737990067.jpg',
       caption: '',
     },
     {
-      url: 'https://imgbb.io/images/FdWp.jpg',
+      url: 'https://imgbb.io/ib/tM6KMpMOHRoWZH8_1737990067.jpg',
       caption: '',
     },
   ];
@@ -60,7 +60,7 @@ function App() {
         <div className="container mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center">
           <div className="flex items-center gap-4 mb-4 sm:mb-0">
             <img
-              src="https://imgbb.io/images/Fd7F.png"
+              src="https://imgbb.io/ib/RyGHAeJkTjazbg6_1737990063.png"
               alt="MuskTrumpCoin Logo"
               className="w-12 h-12"
             />
@@ -90,7 +90,7 @@ function App() {
               {/* Logo da moeda */}
               <div className="mb-8 flex justify-center lg:justify-start">
                 <img
-                  src="https://imgbb.io/images/Fd7F.png"
+                  src="https://imgbb.io/ib/RyGHAeJkTjazbg6_1737990063.png"
                   alt="MuskTrumpCoin Logo Large"
                   className="w-48 h-48 object-contain animate-float"
                 />
@@ -352,7 +352,7 @@ function App() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center gap-4 mb-6 md:mb-0">
               <img
-                src="https://imgbb.io/images/Fd7F.png"
+                src="https://imgbb.io/ib/RyGHAeJkTjazbg6_1737990063.png"
                 alt="MuskTrumpCoin Logo"
                 className="w-8 h-8"
               />
