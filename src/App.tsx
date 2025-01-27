@@ -327,27 +327,6 @@ function App() {
                   </span>
                 </div>
               </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-                <div className="bg-mtc-navy/30 p-6 rounded-xl">
-                  <h4 className="text-mtc-gold font-bold mb-2">
-                    Current Price
-                  </h4>
-                  <p className="text-2xl font-bold">$0.000001</p>
-                  <span className="text-green-400 text-sm">+5.2% (24h)</span>
-                </div>
-                <div className="bg-mtc-navy/30 p-6 rounded-xl">
-                  <h4 className="text-mtc-gold font-bold mb-2">Market Cap</h4>
-                  <p className="text-2xl font-bold">$1.2M</p>
-                  <span className="text-sm text-gray-400">Fully Diluted</span>
-                </div>
-                <div className="bg-mtc-navy/30 p-6 rounded-xl">
-                  <h4 className="text-mtc-gold font-bold mb-2">24h Volume</h4>
-                  <p className="text-2xl font-bold">$50,234</p>
-                  <span className="text-sm text-gray-400">On DEXes</span>
-                </div>
-              </div>
-
               <div className="bg-mtc-navy/30 p-6 rounded-xl">
                 <h4 className="text-xl font-bold mb-4">Price Chart (7 Days)</h4>
                 <div className="aspect-[16/9] bg-mtc-navy/50 rounded-lg flex items-center justify-center">
