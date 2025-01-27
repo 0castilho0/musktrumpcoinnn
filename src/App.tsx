@@ -315,53 +315,6 @@ function App() {
         </div>
       </section>
 
-      {/* Roadmap Section */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-16">Roadmap</h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="space-y-8">
-              <div className="flex gap-4">
-                <div className="bg-orange-500 p-4 rounded-full h-min">
-                  <Timeline className="w-6 h-6" />
-                </div>
-                <div>
-                  <h3 className="text-2xl font-bold mb-2">Phase 1: Launch</h3>
-                  <p className="text-gray-300">Initial token sale, website launch, and community engagement kickoff</p>
-                </div>
-              </div>
-              <div className="flex gap-4">
-                <div className="bg-orange-500 p-4 rounded-full h-min">
-                  <Lock className="w-6 h-6" />
-                </div>
-                <div>
-                  <h3 className="text-2xl font-bold mb-2">Phase 2: Development</h3>
-                  <p className="text-gray-300">Implementation of staking, governance system, and establishment of strategic partnerships</p>
-                </div>
-              </div>
-              <div className="flex gap-4">
-                <div className="bg-orange-500 p-4 rounded-full h-min">
-                  <Coins className="w-6 h-6" />
-                </div>
-                <div>
-                  <h3 className="text-2xl font-bold mb-2">Phase 3: Expansion</h3>
-                  <p className="text-gray-300">Major exchange listings and payment system integrations</p>
-                </div>
-              </div>
-              <div className="flex gap-4">
-                <div className="bg-orange-500 p-4 rounded-full h-min">
-                  <Globe className="w-6 h-6" />
-                </div>
-                <div>
-                  <h3 className="text-2xl font-bold mb-2">Phase 4: Global Recognition</h3>
-                  <p className="text-gray-300">Global adoption campaigns and international themed events</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
-        </section>
-
       {/* Investment Benefits */}
       <section className="py-20 bg-mtc-navy">
         <div className="container mx-auto px-4">
