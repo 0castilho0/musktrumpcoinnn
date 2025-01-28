@@ -1,26 +1,12 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {
   Wallet,
   Shield,
   Globe,
-  Rocket,
-  Binary,
-  Blocks,
-  Zap,
-  Lock,
   TrendingUp,
-  Users,
-  ExternalLink,
   Star,
-  Cpu,
   ChevronRight,
-  Lightbulb,
   Link,
-  Milestone,
-  Vote,
-  Sparkles,
-  History,
-  Target,
 } from 'lucide-react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
@@ -215,79 +201,6 @@ function App() {
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-    {/* Roadmap Section */}
-      <section className="py-20 bg-gradient-to-b from-mtc-navy to-mtc-dark">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12">Project Roadmap</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              {
-                phase: "Phase 1",
-                title: "Launch",
-                icon: Rocket,
-                items: [
-                  "Token Sale Launch",
-                  "Website Development",
-                  "Community Building",
-                  "Social Media Presence",
-                  "Initial Marketing Campaign"
-                ]
-              },
-              {
-                phase: "Phase 2",
-                title: "Development",
-                icon: Blocks,
-                items: [
-                  "Staking Platform",
-                  "Governance System",
-                  "Strategic Partnerships",
-                  "Community Growth",
-                  "Enhanced Security Features"
-                ]
-              },
-              {
-                phase: "Phase 3",
-                title: "Expansion",
-                icon: Globe,
-                items: [
-                  "Major Exchange Listings",
-                  "Payment System Integration",
-                  "Cross-chain Bridges",
-                  "DeFi Ecosystem Growth",
-                  "Market Expansion"
-                ]
-              },
-              {
-                phase: "Phase 4",
-                title: "Global Recognition",
-                icon: Star,
-                items: [
-                  "Global Adoption Campaign",
-                  "Themed Events",
-                  "Enterprise Solutions",
-                  "Innovation Programs",
-                  "Community Leadership"
-                ]
-              }
-            ].map((phase, index) => (
-              <div key={index} className="bg-mtc-darker p-8 rounded-xl border border-mtc-gold/10">
-                <phase.icon className="w-12 h-12 text-mtc-gold mb-4" />
-                <h3 className="text-xl font-bold text-mtc-gold mb-2">{phase.phase}</h3>
-                <h4 className="text-lg font-bold mb-4">{phase.title}</h4>
-                <ul className="space-y-3">
-                  {phase.items.map((item, itemIndex) => (
-                    <li key={itemIndex} className="flex items-start gap-2">
-                      <ChevronRight className="w-5 h-5 text-mtc-gold flex-shrink-0 mt-1" />
-                      <span className="text-gray-300">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
           </div>
         </div>
       </section>
