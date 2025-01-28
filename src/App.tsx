@@ -1,12 +1,26 @@
-import  { useState } from 'react';
+import React, { useState } from 'react';
 import {
   Wallet,
   Shield,
   Globe,
+  Rocket,
+  Binary,
+  Blocks,
+  Zap,
+  Lock,
   TrendingUp,
+  Users,
+  ExternalLink,
   Star,
+  Cpu,
   ChevronRight,
+  Lightbulb,
   Link,
+  Milestone,
+  Vote,
+  Sparkles,
+  History,
+  Target,
 } from 'lucide-react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
