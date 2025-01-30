@@ -370,7 +370,7 @@ function App() {
             </div>
           </div>
           <div className="text-center mt-8 text-gray-500">
-            <p>&copy; 2024 MuskTrumpCoin (MTC). All rights reserved.</p>
+            <p>&copy; 2025 MuskTrumpCoin (MTC). All rights reserved.</p>
           </div>
         </div>
       </footer>
